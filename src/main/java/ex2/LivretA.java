@@ -26,14 +26,6 @@ public class LivretA extends CompteBancaire {
 
 	}
 
-	@Override
-	public void debiterMontant(double montant) {
-
-		if (this.getSolde() - montant > 0)
-			this.setSolde(this.getSolde() - montant);
-
-	}
-
 	/**
 	 * Getter for tauxRemuneration
 	 * 
